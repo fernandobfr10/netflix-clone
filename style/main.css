@@ -55,9 +55,39 @@ header nav a:hover {
 }
 
 .filme-principal .titulo {
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 2.5rem;
+  margin-top: 15%;
 }
 
 .filme-principal .descricao {
-  margin-bottom: 2.5rem;
+  margin: .625rem 0 2.5rem 0;
+}
+
+.filme-principal .botoes .botao {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: var(--branco);
+  padding: .9375rem 1.875rem;
+  margin-right: .9375rem;
+  font-size: .75rem;
+  cursor: pointer;
+  transition: .4s ease all;
+}
+
+.filme-principal .botoes .botao:hover {
+  background-color: var(--branco);
+  color: var(--preta);
+}
+
+.filme-principal .botoes .botao i {
+  margin-right: .5rem;
+}
+
+/* Carrosel Filmes */
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
